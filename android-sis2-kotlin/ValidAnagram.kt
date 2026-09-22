@@ -1,7 +1,7 @@
 class Solution {
-    fun isAnagram(s: String, t: String): Boolean {
+    fun main(s: String, s2: String): Boolean {
         return s.groupingBy { it }.eachCount() ==
-               t.groupingBy { it }.eachCount()
+               s2.groupingBy { it }.eachCount()
     }
 }
 
