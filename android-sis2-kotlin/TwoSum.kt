@@ -1,7 +1,7 @@
 // my solution
 
 class Solution {
-    fun twoSum(nums: IntArray, t: Int): IntArray {
+    fun main(nums: IntArray, t: Int): IntArray {
         for (i in 0 until nums.size) {
             for (j in i + 1 until nums.size) {
                 if (nums[i] + nums[j] == t) {
