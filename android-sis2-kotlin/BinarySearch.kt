@@ -1,7 +1,7 @@
 // my solution
 
 class Solution {
-    fun search(nums: IntArray, t: Int): Int {
+    fun main(nums: IntArray, t: Int): Int {
         for (i in 0 until nums.size) {
             if (nums[i] == t) {
                 return i
